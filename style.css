@@ -1,0 +1,12 @@
+body{
+    
+    background-image: url(dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hit{
+    color: black;
+}
+.user{
+    color: rgb(233, 223, 223);
+}
