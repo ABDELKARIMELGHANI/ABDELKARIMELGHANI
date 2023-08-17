@@ -1,0 +1,91 @@
+body {
+    color: white;
+    background-image: url(dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.menu #logo {
+    float: left;
+}
+
+.menu>ul {
+    margin: 0;
+    padding: o;
+    float: left;
+    list-style: none;
+}
+
+.menu>ul>li {
+    float: left;
+}
+
+.menu-li {
+    display: inline-block;
+    padding: 2px 15px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu-li:hover {
+    background-color: #fc86ab;
+    color: black;
+}
+
+span {
+    color: rgb(255, 0, 85);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.from-box {
+    background: transparent;
+    border: 2px solid rgb(241, 232, 232);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    position: relative;
+    width: 310px;
+    height: 300px;
+}
+
+.box {
+    margin: 10px o;
+    width: 100%;
+    font-size: 1em;
+    width: 300px;
+    height: 30px;
+    border-bottom: 0.2px solid #fff;
+    background: transparent;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+#hit{
+    margin-left: 125px;
+    display: block;
+    background-color: rgb(241, 71, 108);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 40px;
+    font-size: 18px;
+    border-radius: 13px;
+}
+#hit:hover{
+    background-color: rgb(250, 0, 54);
+}
+#non{
+    margin-left: 80px;
+}
